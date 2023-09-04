@@ -1,4 +1,4 @@
-The project focused on analyzing Uber's TLC Trip Record Data using various tools and platforms, such as Google Cloud Platform (GCP) tools, Python, Mage Data Pipeline Tool, BigQuery, and Looker Studio.
+**The project focused on analyzing Uber's TLC Trip Record Data using various tools and platforms, such as Google Cloud Platform (GCP) tools, Python, Mage Data Pipeline Tool, BigQuery, and Looker Studio.**
 
 <img src = "architecture.jpg">
 **Data Ingestion and Transformation**: The first step involved ingesting the TLC Trip Record Data, which is a comprehensive dataset of Uber trips. The Mage Data Pipeline Tool, a powerful tool for data ingestion and transformation, was used to clean, transform, and prepare the data for analysis. This step is crucial for removing any noise or irrelevant information from the data and converting it into a format suitable for analysis.
