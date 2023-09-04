@@ -1,13 +1,38 @@
-# Uber-Data-Analytics-using-GCP
+# Uber Data Analytics | Modern Data Engineering GCP Project
 
-The project focused on analyzing Uber's TLC Trip Record Data using various tools and platforms, such as Google Cloud Platform (GCP) tools, Python, Mage Data Pipeline Tool, BigQuery, and Looker Studio.
+## Introduction
 
-**Data Ingestion and Transformation**: The first step involved ingesting the TLC Trip Record Data, which is a comprehensive dataset of Uber trips. The Mage Data Pipeline Tool, a powerful tool for data ingestion and transformation, was used to clean, transform, and prepare the data for analysis. This step is crucial for removing any noise or irrelevant information from the data and converting it into a format suitable for analysis.
+The goal of this project is to perform data analytics on Uber data using various tools and technologies, including GCP Storage, Python, Compute Instance, Mage Data Pipeline Tool, BigQuery, and Looker Studio.
 
-**Advanced Analytics**: After the data was prepared, it was analyzed using BigQuery, a web service from Google that is used for handling and analyzing big data. BigQuery allows for fast SQL queries against large datasets. Python was also used for performing some advanced analytics on the data.
+## Architecture 
+<img src="architecture.jpg">
 
-**Data Visualization**: Looker Studio, a data exploration and visualization tool, was used to create visualizations of the insights derived from the analysis. Visualizations help in understanding the data better and in identifying patterns and trends that might not be apparent from the raw data.
+## Technology Used
+- Programming Language - Python
 
-**Strategic Decision-Making**: The ultimate goal of the project was to aid in strategic decision-making by identifying key operational trends and patterns in Uber's trip data. The insights derived from the analysis and visualizations helped in understanding the operational efficiency of Uber, areas that need improvement, and potential opportunities for growth.
+Google Cloud Platform
+1. Google Storage
+2. Compute Instance 
+3. BigQuery
+4. Looker Studio
 
-Overall, the project demonstrated skills in data ingestion and transformation, advanced analytics, data visualization, and strategic decision-making. It showcased the ability to handle and analyze large datasets, derive meaningful insights from them, and use those insights to make informed strategic decisions.
+Modern Data Pipeine Tool - https://www.mage.ai/
+
+Contibute to this open source project - https://github.com/mage-ai/mage-ai
+
+
+## Dataset Used
+TLC Trip Record Data
+Yellow and green taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. 
+
+Here is the dataset used in the video - https://github.com/darshilparmar/uber-etl-pipeline-data-engineering-project/blob/main/data/uber_data.csv
+
+More info about dataset can be found here:
+1. Website - https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+2. Data Dictionary - https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
+
+## Data Model
+<img src="data_model.jpeg">
+
+## Complete Video Tutorial 
+Video Link - https://youtu.be/WpQECq5Hx9g
